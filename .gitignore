@@ -1,5 +1,8 @@
 *~
-dati/*
 ./*.png
 *.csv
 *.autosave
+*#
+.#*
+*.log
+*.zip
