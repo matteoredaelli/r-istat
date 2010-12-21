@@ -20,10 +20,8 @@ args <- commandArgs()
 
 if (length(args) < 7) {
   usage <- "Numero parametri insufficiente!
-Parametri: file_provincia.csv codice_comune [output_folder] [prefix]
-  file_provincia.csv scaricato da http://demo.istat.it/pop2010/index3.html
-  codice_comune: utilizza, per esempio, 108015 per Carate Brianza.
-  prefix: utilizzato sia nel titolo sia nel nome file delle immagini 
+Parametri: file_regioni-italia.shp popolazione-regioni.csv [output_folder] 
+  popolazioni-regioni.csv scaricato da http://demo.istat.it/pop2010/index3.html 
 "
   stop(usage)
 }
